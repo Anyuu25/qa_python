@@ -1,8 +1,8 @@
 # qa_python
 ## Описание файлов в проекте:
-conftest.py - вспомогательная функция (фикстура)
-main.py - класс BooksCollector
-tests.py - тестовый класс TestBooksCollector (сами тесты)
+conftest.py - вспомогательная функция (фикстура)  
+main.py - класс BooksCollector  
+tests.py - тестовый класс TestBooksCollector (сами тесты)  
 Набор тестовых методов класса TestBooksCollector:
 test_add_new_book_adding_three_books_success: Проверка добавления трех книг в словарь books_genre
 test_add_new_book_check_genre_success: Проверка установления жанра по умолчанию в добавленной книге
