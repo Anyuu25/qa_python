@@ -3,7 +3,7 @@
 conftest.py - вспомогательная функция (фикстура)  
 main.py - класс BooksCollector  
 tests.py - тестовый класс TestBooksCollector (сами тесты)  
-Набор тестовых методов класса TestBooksCollector:  
+*Набор тестовых методов класса TestBooksCollector:*    
 * test_add_new_book_adding_three_books_success: Проверка добавления трех книг в словарь books_genre  
 * test_add_new_book_check_genre_success: Проверка установления жанра по умолчанию в добавленной книге  
 * test_add_new_book_add_incorrect_name_not_added: Негативная проверка добавления книг с именем 0 и больше 40 символов (параметризированный тест с двумя аргументами)  
